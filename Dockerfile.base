@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM harbor.vuitton.net/lvm/ubuntu:22.04-v1.5
 LABEL maintainer="myoung34@my.apsu.edu"
 
 ARG DUMB_INIT_VERSION="1.2.2"
